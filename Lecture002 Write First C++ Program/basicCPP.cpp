@@ -59,10 +59,10 @@ int main(int argc, char const *argv[])
   /*
   int a = 45;
   float b = 45.45;
-  
+
   cout << "The value of a is " << (float)a << endl;
   cout << "The value of b is " << (int)b << endl;
-  
+
   int c = 2/5;
   cout << "The value of c is " << c << endl;
 
@@ -115,7 +115,7 @@ int main(int argc, char const *argv[])
   c %= 2;
   cout << c << endl;
 `;*/
-  
+
   // Logical Operators
   /*
   int x = 4;
@@ -130,6 +130,26 @@ int main(int argc, char const *argv[])
   int p = 34;
   int q = p++;
   cout << p << " " << q << endl;
+
+  Post Increment: First assign the value and then increment
+  Pre Increment: First increment and then assign the value
+
+  int p = 34;
+  int q = ++p;
+  cout <<"Pre Increment: p = " << p << " and q = " << q << endl;
+
+  q = p++;
+  cout <<"Post Increment p = " << p << " and q = " << q << endl;
+
+  Post Decrement: First assign the value and then decrement
+  Pre Decrement: First decrement and then assign the value
+
+  int p = 34;
+  int q = --p;
+  cout <<"Pre Decrement: p = " << p << " and q = " << q << endl;
+
+  q = p--;
+  cout <<"Post Decrement p = " << p << " and q = " << q << endl;
   */
 
   return 0;
